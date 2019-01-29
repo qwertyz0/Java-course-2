@@ -18,7 +18,7 @@ public class Lab02 {
         Scanner scan = new Scanner(System.in);
         double y = 0;
          */
-        System.out.println("Прощитать функцию со случайными параметрами: ");
+        System.out.println("Просчитать функцию со случайными параметрами: ");
 
 
 
