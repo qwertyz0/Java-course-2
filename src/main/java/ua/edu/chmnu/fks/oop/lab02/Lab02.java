@@ -28,7 +28,7 @@ public class Lab02 {
         double a = 4.16, b = Math.random() * 20 + (-10), x = -6.31;
         double j = Math.pow(Math.exp((Math.cos(2/1-x)+ b * Math.sin(3*x))), a * x);
       
-      System.out.println("ответ : " + j + "\n");
+      System.out.println("Ответ : " + j + "\n");
 
       }
  
