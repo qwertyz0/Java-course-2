@@ -48,4 +48,4 @@ public class Lab02 {
 }
 
 
-//Math.random() * 20 + (-10)
+//Math.random()* 20 + (-10)
