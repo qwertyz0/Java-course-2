@@ -25,7 +25,7 @@ public class Lab06 {
        
         fc.setName("Sony");
         fc.setZoom(2.2);
-        fc.setFilm("This film can shoot in the negative!");
+        fc.setFilm("This film can shoot in the negative! ");
         fc.setType("Film camera");
         fc.descriptionOfCamera();
         
