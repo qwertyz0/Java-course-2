@@ -14,7 +14,7 @@ public class Lab03_2 {
             arr[j + 1] = temp;
         }
         for(int i = 0; i < arr.length; i++){
-            System.out.printf(" " + arr[i]);
+            System.out.printf("  " + arr[i]);
         }
     }
 }
