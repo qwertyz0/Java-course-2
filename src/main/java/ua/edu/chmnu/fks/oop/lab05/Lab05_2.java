@@ -7,7 +7,7 @@ public class Lab05_2 {
         list.addFirst(3);
         list.addFirst(1);
         list.addLast(9);
-        System.out.println("\n" + "direct order:");
+        System.out.println("\n" + " direct order:");
         list.printList();
         //list.removeLast();
         list.reverseList();
