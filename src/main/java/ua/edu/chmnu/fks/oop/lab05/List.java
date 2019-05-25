@@ -1,59 +1,6 @@
 package ua.edu.chmnu.fks.oop.lab05;
 
-public class Lab05_2 {
-    public static void main(String[] args) {
-        List list = new List();
-        list.addFirst(8);
-        list.addFirst(3);
-        list.addFirst(1);
-        list.addLast(9);
-        System.out.println("\n" + " direct order:");
-        list.printList();
-        //list.removeLast();
-        list.reverseList();
-        System.out.println("from the end:");
-        list.printList();
-        Element find = list.find(1);
-        System.out.printf("%d on the list\n", find.getData());
-        System.out.printf("\n" + "length list: %d\n", list.lengthList());
-    }
-}
-
-class Element{
-    private int data;
-    public Element next = null;
-
-    public Element(int data, Element next){
-        this.data = data;
-        this.next = next;
-    }
-
-    public Element(int data){
-        this.data = data;
-    }
-
-    public int getData(){
-        return data;
-    }
-
-    public void setData(int data){
-        this.data = data;
-    }
-
-    public Element getNext(){
-        return next;
-    }
-
-    public void setNext(Element next){
-        this.next = next;
-    }
-
-    public Element next(){
-        return next != null ? next: null;
-    }
-}
-
-class List{
+public class List {
     private Element root = null;
     public void addFirst(int data){
         if(root == null){

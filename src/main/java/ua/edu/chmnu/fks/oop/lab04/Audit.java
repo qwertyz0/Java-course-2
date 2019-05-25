@@ -2,11 +2,11 @@ package ua.edu.chmnu.fks.oop.lab04;
 
 import java.math.BigInteger;
 
-public class Lab04_1 {
+public class Audit {
 
     public static void main(String[] args) {
 
-        System.out.println("Answer is " + fact(5));
+        System.out.println("Answer is: " + fact(5));
     }
 
 

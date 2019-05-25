@@ -1,6 +1,6 @@
 package ua.edu.chmnu.fks.oop.lab03;
 
-public class Lab03_2 {
+public class Audit {
     public static void main(String[] args) {
 
         int[] arr = {6, 2, 5, 5, 4, 2, 1};
